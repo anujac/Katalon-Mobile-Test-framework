@@ -1,5 +1,6 @@
-# Katalon-Mobile-Test-framework
+# Katalon Mobile Test framework
 This repo has a POC for Mobile tests (android and iOS) using Cucumber in Katalon studio.
+Katalon studio uses Appium for interacting with the apps.
 
 
 ### Open the "Test Mobile" project folder in Katalon studio. 
@@ -15,3 +16,9 @@ Select **iOS** option from the Run test list.
 Cucumber feature files are inside the **Include** folder. 
 
 To run the android and iOS tests in parallel, open the test suite collection **Mobile Tests** from the **Test Suites** folder. The run configurations have been setup already. Just click on the **Execute** button
+
+
+Some links to refer for writing tests
+
+https://docs.katalon.com/katalon-studio/docs/katalon_mobile_recorder_introduction.html#script-mode
+https://appiumpro.com/editions
