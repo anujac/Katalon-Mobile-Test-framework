@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35990583816,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that I have started the ios application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ios",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyLastItemOnScreenSTeps.that_I_have_started_an_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1431998593,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see the Mexican coffee option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mexican",
+                  "offset": 10
+                }
+              ],
+              "location": "CoffeeTimerSteps.I_see_the_coffee_option_step(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16882602008,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I start the timer for Mexican coffee",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mexican",
+                  "offset": 22
+                }
+              ],
+              "location": "CoffeeTimerSteps.I_check_for_the_value_in_step(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ios/XCUIElementTypeStaticText - 317 not found\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)\n\tat ios.CoffeeTimerSteps.I_want_to_write_a_step_with_name(CoffeeTimerSteps.groovy:60)\n\tat ✽.I stop the timer at 3.17(Include/features/ios/CoffeeTimer.feature:10)\n",
+              "duration": 30900065646,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I stop the timer at 3.17",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.17",
+                  "offset": 20
+                }
+              ],
+              "location": "CoffeeTimerSteps.I_want_to_write_a_step_with_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I have the option to start timer again",
+            "match": {
+              "location": "CoffeeTimerSteps.I_can_start_timer_step(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ios"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Include/features/ios/CoffeeTimer.feature",
+    "tags": [
+      {
+        "name": "@ios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

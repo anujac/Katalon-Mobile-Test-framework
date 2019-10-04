@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "verify-last-item-in-the-list;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12250339585,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "that I have started the android application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "android",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyLastItemOnScreenSTeps.that_I_have_started_an_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1886236696,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate the application to Graphics form",
+            "match": {
+              "location": "VerifyLastItemOnScreenSTeps.i_navigate_the_application_to_Graphics_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14943522377,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I scroll to \"Xfermodes\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xfermodes\"",
+                  "offset": 12
+                }
+              ],
+              "location": "VerifyLastItemOnScreenSTeps.i_scroll_to_text(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352251138,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the current screen should show \"Xfermodes\" text after scrolling",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xfermodes\"",
+                  "offset": 31
+                }
+              ],
+              "location": "VerifyLastItemOnScreenSTeps.the_current_screen_should_show_text_after_scrolling(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android"
+          }
+        ]
+      }
+    ],
+    "name": "Verify last item in the List",
+    "description": "  As a user, \n  I want to scroll to the end of the screen, \n  So that I can interact with the last item in the list.",
+    "id": "verify-last-item-in-the-list",
+    "keyword": "Feature",
+    "uri": "Include/features/VerifyLastItemsInTheList.feature",
+    "tags": [
+      {
+        "name": "@android",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

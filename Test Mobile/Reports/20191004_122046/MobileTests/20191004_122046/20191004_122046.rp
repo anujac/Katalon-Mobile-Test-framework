@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20191004_122046</name>
+   <tag></tag>
+   <displayName>20191004_122046</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20191004_122046/TS_AndroidTests/20191004_122046</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>emulator-5554 (Android SDK built for x86 - Android 8.0.0)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>emulator-5554</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20191004_122046/TS_IOSTests/20191004_122047</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>iPad Pro (Simulator)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>12.9-inch</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>iOS</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

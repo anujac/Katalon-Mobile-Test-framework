@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/testng-6.11.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/netty-all-4.0.51.Final.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/mitm-2.1.5.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/repackaged-sikuli-api-1.0.2-standalone.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.141.59.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/browsermob-core-2.1.5.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/slf4j-api-1.7.25.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/cglib-3.2.10.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/spring-context-5.1.0.RELEASE.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/java-client-7.0.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/jzlib-1.1.3.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/commons-validator-1.6.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-leg-rc-3.141.59.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/kat-server.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/jna-platform-4.1.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/jna-4.1.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/aspectjweaver-1.9.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/dnsjava-2.1.8.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/bcpkix-jdk15on-1.58.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/bcprov-jdk15on-1.58.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/littleproxy-1.1.0-beta-bmp-17.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/net.sf.supercsv.super-csv_2.1.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.poi_3.9.0.v201405241750.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.poi.ooxml_3.9.0.v201405241905.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.poi.ooxml.schemas_3.9.0.v201405241750.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.dom4j_1.6.1.v201312101416.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.io_2.4.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.lang_2.6.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.xmlbeans_2.6.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.gson_2.8.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.jsoup_1.7.2.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.mysql.jdbc_5.1.38.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.microsoft.sqlserver.sqljdbc4_4.1.5605.100.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.dbutils_1.6.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.oracle.jdbc.ojdbc7_12.1.0.2.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.postgresql.jdbc41_9.4.1208.jre7.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.constant_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.persistence.eclipselink_2.5.0.RC1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.selenium-standalone_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/atu.testrecorder.screen-recorder_2.1.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.guava_23.0.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.util_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpclient_4.5.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpcore_4.4.4.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpmime_4.5.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.lang3_3.6.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.greenrobot.eventbus_3.1.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.assertj.core_3.10.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.junit_4.12.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.fasterxml.jackson.core.jackson-databind_2.9.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.fasterxml.jackson.core.jackson-core_2.9.6.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.fasterxml.jackson.core.jackson-annotations_2.9.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/ch.qos.logback.classic_1.2.3.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/ch.qos.logback.core_1.2.3.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/slf4j.api_1.7.25.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.fusesource.jansi_1.17.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.netlightbody_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/xml-apis_1.4.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.commons-text_1.6.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.codec_1.7.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.logging_1.2.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.beanshell.bsh_2.0.0.0b4.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.ant.launcher_1.9.6.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.appium_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webui_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.json_20140107.0.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.mobile_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.validator_1.5.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.cucumber_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.core_3.0.2.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.datatable_1.0.3.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.datatable-dependencies_1.0.3.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.expressions_5.0.19.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.gherkin_5.0.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.html_0.2.7.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.java_3.0.2.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.tag-expressions_1.1.1.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.junit_3.0.2.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webservice_1.0.0.201908270734.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/wsdl4j_1.6.2.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.http-client.google-http-client_1.22.0.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar!/" />
+    <libelement value="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.preferences_1.0.0.201908270734.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/Keywords" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/Test Listeners" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/Libs" expected_position="3" />
+      <src_folder value="file://$MODULE_DIR$/Include/scripts/groovy" expected_position="4" />
+      <src_folder value="GROOVY_SUPPORT" expected_position="93" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Keywords" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Test Listeners" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Libs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Include/scripts/groovy" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.core_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="testng-6.11.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/testng-6.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-all-4.0.51.Final.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/netty-all-4.0.51.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mitm-2.1.5.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/mitm-2.1.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="repackaged-sikuli-api-1.0.2-standalone.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/repackaged-sikuli-api-1.0.2-standalone.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="selenium-server-standalone-3.141.59.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.141.59.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="browsermob-core-2.1.5.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/browsermob-core-2.1.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.7.25.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/slf4j-api-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cglib-3.2.10.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/cglib-3.2.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-5.1.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/spring-context-5.1.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="java-client-7.0.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/java-client-7.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jzlib-1.1.3.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/jzlib-1.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-validator-1.6.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/commons-validator-1.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="selenium-leg-rc-3.141.59.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-leg-rc-3.141.59.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kat-server.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/kat-server.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jna-platform-4.1.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/jna-platform-4.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jna-4.1.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/jna-4.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aspectjweaver-1.9.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/aspectjweaver-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dnsjava-2.1.8.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/dnsjava-2.1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcpkix-jdk15on-1.58.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/bcpkix-jdk15on-1.58.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcprov-jdk15on-1.58.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/bcprov-jdk15on-1.58.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="littleproxy-1.1.0-beta-bmp-17.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/littleproxy-1.1.0-beta-bmp-17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="net.sf.supercsv.super-csv_2.1.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/net.sf.supercsv.super-csv_2.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.poi_3.9.0.v201405241750.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.poi_3.9.0.v201405241750.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.poi.ooxml_3.9.0.v201405241905.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.poi.ooxml_3.9.0.v201405241905.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.poi.ooxml.schemas_3.9.0.v201405241750.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.poi.ooxml.schemas_3.9.0.v201405241750.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.dom4j_1.6.1.v201312101416.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.dom4j_1.6.1.v201312101416.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.io_2.4.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.io_2.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.lang_2.6.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.lang_2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.xmlbeans_2.6.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.xmlbeans_2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.google.gson_2.8.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.gson_2.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.jsoup_1.7.2.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.jsoup_1.7.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.mysql.jdbc_5.1.38.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.mysql.jdbc_5.1.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.microsoft.sqlserver.sqljdbc4_4.1.5605.100.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.microsoft.sqlserver.sqljdbc4_4.1.5605.100.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.dbutils_1.6.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.dbutils_1.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.oracle.jdbc.ojdbc7_12.1.0.2.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.oracle.jdbc.ojdbc7_12.1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.postgresql.jdbc41_9.4.1208.jre7.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.postgresql.jdbc41_9.4.1208.jre7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.osgi_3.11.3.v20170209-1843.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.constant_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.constant_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.persistence.eclipselink_2.5.0.RC1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.persistence.eclipselink_2.5.0.RC1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.selenium-standalone_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.selenium-standalone_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="atu.testrecorder.screen-recorder_2.1.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/atu.testrecorder.screen-recorder_2.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.google.guava_23.0.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.guava_23.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.util_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.util_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.httpcomponents.httpclient_4.5.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpclient_4.5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.httpcomponents.httpcore_4.4.4.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpcore_4.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.httpcomponents.httpmime_4.5.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpmime_4.5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.lang3_3.6.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.lang3_3.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.greenrobot.eventbus_3.1.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.greenrobot.eventbus_3.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.assertj.core_3.10.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.assertj.core_3.10.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.junit_4.12.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.junit_4.12.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.core.jackson-databind_2.9.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.fasterxml.jackson.core.jackson-databind_2.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.core.jackson-core_2.9.6.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.fasterxml.jackson.core.jackson-core_2.9.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.fasterxml.jackson.core.jackson-annotations_2.9.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.fasterxml.jackson.core.jackson-annotations_2.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ch.qos.logback.classic_1.2.3.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/ch.qos.logback.classic_1.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ch.qos.logback.core_1.2.3.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/ch.qos.logback.core_1.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j.api_1.7.25.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/slf4j.api_1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.fusesource.jansi_1.17.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.fusesource.jansi_1.17.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.netlightbody_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.netlightbody_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xml-apis_1.4.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/xml-apis_1.4.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.commons-text_1.6.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.commons-text_1.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.codec_1.7.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.codec_1.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.logging_1.2.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.logging_1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.hamcrest.core_1.3.0.v201303031735.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.beanshell.bsh_2.0.0.0b4.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.beanshell.bsh_2.0.0.0b4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.ant.launcher_1.9.6.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.ant.launcher_1.9.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.core.appium_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.appium_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.common_3.8.0.v20160509-1230.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.core.webui_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webui_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.webui" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.json_20140107.0.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.json_20140107.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.core.mobile_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.mobile_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.mobile" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.commons.validator_1.5.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.validator_1.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.core.cucumber_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.cucumber_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.cucumber" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.core_3.0.2.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.core_3.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.datatable_1.0.3.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.datatable_1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.datatable-dependencies_1.0.3.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.datatable-dependencies_1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.expressions_5.0.19.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.expressions_5.0.19.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.gherkin_5.0.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.gherkin_5.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.html_0.2.7.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.html_0.2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.java_3.0.2.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.java_3.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.tag-expressions_1.1.1.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.tag-expressions_1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="io.cucumber.junit_3.0.2.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.junit_3.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.core.webservice_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webservice_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.webservice" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="wsdl4j_1.6.2.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/wsdl4j_1.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.google.oauth-client.google-oauth-client_1.22.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.google.http-client.google-http-client_1.22.0.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.http-client.google-http-client_1.22.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.kms.katalon.preferences_1.0.0.201908270734.jar">
+        <CLASSES>
+          <root url="jar:///Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.preferences_1.0.0.201908270734.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

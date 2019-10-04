@@ -1,0 +1,70 @@
+[35m[Appium][39m Welcome to Appium v1.15.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 56995
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 56996
+[35m[Appium][39m   tmpDir: /var/folders/gg/sy3_nv612m3745rcj_thjtsw0000gn/T//Katalon/Appium/Temp1570161922464
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56995
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/anujachikane/Katalon Studio/Test Mobile/Apps/ios/Coffee Timer-iPad Pro (9.7-inch).ipa","noReset":true,"deviceName":"iPhone 11 Pro","fullReset":false,"wdaLocalPort":57012,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.0","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"81399A11-7C04-4F7E-AB20-6A952929CE2A"},"capabilities":{"firstMatch":[{"appium:app":"/Users/anujachikane/Katalon Studio/Test Mobile/Apps/ios/Coffee Timer-iPad Pro (9.7-inch).ipa","appium:automationName":"XCUITest","appium:deviceName":"iPhone 11 Pro","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"13.0","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"81399A11-7C04-4F7E-AB20-6A952929[39m
+[35m[BaseDriver][39m The capabilities ["realDeviceLogger"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.0 creating new XCUITestDriver (v2.133.1) session
+[35m[BaseDriver][39m Session created with session id: dd78070f-4f77-4c21-8d57-341f9eeca50c
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.0 with udid '81399A11-7C04-4F7E-AB20-6A952929CE2A'
+[35m[XCUITest][39m Determining device to run tests on: udid: '81399A11-7C04-4F7E-AB20-6A952929CE2A', real device: false
+[35m[BaseDriver][39m Using local app '/Users/anujachikane/Katalon Studio/Test Mobile/Apps/ios/Coffee Timer-iPad Pro (9.7-inch).ipa'
+[35m[BaseDriver][39m Unzipped local app to '/var/folders/gg/sy3_nv612m3745rcj_thjtsw0000gn/T/Katalon/Appium/Temp1570161922464/201994-22938-l1x8if.7uvpi/Payload/Coffee Timer.app'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 81399A11-7C04-4F7E-AB20-6A952929CE2A and the UI client are currently running
+[35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
+[35m[XCUITest][39m *********************************
+[35m[XCUITest][39m Simulator architecture appears to be unsupported by the '/var/folders/gg/sy3_nv612m3745rcj_thjtsw0000gn/T/Katalon/Appium/Temp1570161922464/201994-22938-l1x8if.7uvpi/Payload/Coffee Timer.app' application. Make sure the correct deployment target has been selected for its compilation in Xcode.
+[35m[XCUITest][39m Don't be surprised if the application fails to launch.
+[35m[XCUITest][39m *********************************
+[35m[XCUITest][39m Using WDA path: '/Users/anujachikane/.nvm/versions/node/v12.1.0/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[XCUITest][39m Using WDA agent: '/Users/anujachikane/.nvm/versions/node/v12.1.0/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[DevCon Factory][39m Requesting connection for device 81399A11-7C04-4F7E-AB20-6A952929CE2A on local port 57012, device port 57012
+[35m[DevCon Factory][39m Successfully requested the connection for 81399A11-7C04-4F7E-AB20-6A952929CE2A:57012
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":57012}
+[35m[XCUITest][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":57012}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":57012}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":57012}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session dd78070f-4f77-4c21-8d57-341f9eeca50c added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13447 ms - 746[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dd78070f-4f77-4c21-8d57-341f9eeca50c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/dd78070f-4f77-4c21-8d57-341f9eeca50c [39m[32m200[39m [90m128 ms - 692[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dd78070f-4f77-4c21-8d57-341f9eeca50c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/dd78070f-4f77-4c21-8d57-341f9eeca50c [39m[32m200[39m [90m1 ms - 692[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dd78070f-4f77-4c21-8d57-341f9eeca50c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/dd78070f-4f77-4c21-8d57-341f9eeca50c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session dd78070f-4f77-4c21-8d57-341f9eeca50c from our master session list
+[35m[DevCon Factory][39m Releasing connections for 81399A11-7C04-4F7E-AB20-6A952929CE2A device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["81399A11-7C04-4F7E-AB20-6A952929CE2A:57012"]

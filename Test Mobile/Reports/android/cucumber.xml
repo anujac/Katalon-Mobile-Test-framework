@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.467675">
+<testcase classname="Verify last item in the List" name="Title of your scenario outline" time="29.467675">
+<system-out><![CDATA[Given that I have started the android application...........................passed
+And I navigate the application to Graphics form.............................passed
+When I scroll to "Xfermodes" text...........................................passed
+Then the current screen should show "Xfermodes" text after scrolling........passed
+]]></system-out>
+</testcase>
+</testsuite>
