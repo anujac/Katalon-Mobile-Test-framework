@@ -22,4 +22,5 @@ To run the android and iOS tests in parallel, open the test suite collection **M
 Some links to refer for writing tests
 
 https://docs.katalon.com/katalon-studio/docs/katalon_mobile_recorder_introduction.html#script-mode
+https://appiumpro.com/editions/76
 https://appiumpro.com/editions
