@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34868357035,
+              "duration": 28084076792,
               "status": "passed"
             },
             "line": 7,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 1522310259,
+              "duration": 2630119903,
               "status": "passed"
             },
             "line": 8,
@@ -49,7 +49,7 @@
           {
             "result": {
               "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ios/XCUIElementTypeButton - Start not found\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)\n\tat ios.CoffeeTimerSteps.I_check_for_the_value_in_step(CoffeeTimerSteps.groovy:55)\n\tat ✽.I start the timer for Mexican coffee(Include/features/ios/CoffeeTimer.feature:9)\n",
-              "duration": 32992069737,
+              "duration": 34481402404,
               "status": "failed"
             },
             "line": 9,
