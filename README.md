@@ -18,9 +18,17 @@ Cucumber feature files are inside the **Include** folder.
 To run the android and iOS tests in parallel, open the test suite collection **Mobile Tests** from the **Test Suites** folder. The run configurations have been setup already. Just click on the **Execute** button
 
 
+### Command line execution for MacOS:
+
+`./Katalon\ Studio.app/Contents/MacOS/katalon --args -noSplash  -runMode=console -projectPath="/Users/anujachikane/Katalon Studio/Katalon-Mobile-Test-framework/Test Mobile/Test Mobile.prj" -retry=0 -testSuiteCollectionPath="Test Suites/MobileTests"`
+
+Please switch the username with your own.
+
+
 ----
 Some links to refer for writing tests
 
 https://docs.katalon.com/katalon-studio/docs/katalon_mobile_recorder_introduction.html#script-mode
 https://appiumpro.com/editions/76
 https://appiumpro.com/editions
+https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder
