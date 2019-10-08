@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353266</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_AndroidTests</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_AndroidTests</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_AndroidTests</property>
+</record>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353285</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = anujachikane - 192.168.1.115</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">anujachikane - 192.168.1.115</property>
+</record>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353286</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353290</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.115</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.115</property>
+</record>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353291</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353530</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RunCucumberAndroid</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RunCucumberAndroid</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RunCucumberAndroid</property>
+  <property name="source">\\Users\\anujachikane\\Katalon Studio\\Katalon-Mobile-Test-framework\\Test Mobile\\Test Cases\\RunCucumberAndroid.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T11:02:33</date>
+  <millis>1570507353860</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runWithCucumberRunner(MyCucumberRunnerAndroid)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T11:03:17</date>
+  <millis>1570507397459</millis>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.13.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.13.0</property>
+</record>
+<record>
+  <date>2019-10-08T11:03:17</date>
+  <millis>1570507397460</millis>
+  <sequence>10</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;status\&amp;quot;:0,\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.13.0\&amp;quot;,\&amp;quot;revision\&amp;quot;:\&amp;quot;fd170567d5eeb8a7aaf2a693e33389484001e881\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.13.0\&quot;,\&quot;revision\&quot;:\&quot;fd170567d5eeb8a7aaf2a693e33389484001e881\&quot;}},\&quot;sessionId\&quot;:null}</property>
+</record>
+<record>
+  <date>2019-10-08T11:03:18</date>
+  <millis>1570507398210</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {\n  \&amp;quot;app\&amp;quot;: \&amp;quot;kobiton-store:40231\&amp;quot;,\n  \&amp;quot;captureScreenshots\&amp;quot;: true,\n  \&amp;quot;deviceGroup\&amp;quot;: \&amp;quot;KOBITON\&amp;quot;,\n  \&amp;quot;deviceName\&amp;quot;: \&amp;quot;LG G4\&amp;quot;,\n  \&amp;quot;deviceOrientation\&amp;quot;: \&amp;quot;portrait\&amp;quot;,\n  \&amp;quot;platformName\&amp;quot;: \&amp;quot;Android\&amp;quot;,\n  \&amp;quot;platformVersion\&amp;quot;: \&amp;quot;6.0\&amp;quot;,\n  \&amp;quot;sessionDescription\&amp;quot;: \&amp;quot;\&amp;quot;,\n  \&amp;quot;sessionName\&amp;quot;: \&amp;quot;Automation test session\&amp;quot;\n}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="desiredCapabilities">{\n  \&quot;app\&quot;: \&quot;kobiton-store:40231\&quot;,\n  \&quot;captureScreenshots\&quot;: true,\n  \&quot;deviceGroup\&quot;: \&quot;KOBITON\&quot;,\n  \&quot;deviceName\&quot;: \&quot;LG G4\&quot;,\n  \&quot;deviceOrientation\&quot;: \&quot;portrait\&quot;,\n  \&quot;platformName\&quot;: \&quot;Android\&quot;,\n  \&quot;platformVersion\&quot;: \&quot;6.0\&quot;,\n  \&quot;sessionDescription\&quot;: \&quot;\&quot;,\n  \&quot;sessionName\&quot;: \&quot;Automation test session\&quot;\n}</property>
+</record>
+<record>
+  <date>2019-10-08T11:03:18</date>
+  <millis>1570507398211</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>remoteDriverUrl = http://anujac:c68a9208-7408-47c5-a86f-f5ff8bfb8904@api.kobiton.com/wd/hub</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="remoteDriverUrl">http://anujac:c68a9208-7408-47c5-a86f-f5ff8bfb8904@api.kobiton.com/wd/hub</property>
+</record>
+<record>
+  <date>2019-10-08T11:03:25</date>
+  <millis>1570507405137</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Application/android.widget.TextView - Graphics&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:36</date>
+  <millis>1570507416615</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scrolling to text &amp;apos;Xfermodes&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:43</date>
+  <millis>1570507423702</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of element &amp;apos;Object Repository/Application/Graphics/android.widget.TextView - Xfermodes&amp;apos; is: &amp;apos;Xfermodes&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:43</date>
+  <millis>1570507423719</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;Xfermodes&amp;apos; and expected object &amp;apos;Xfermodes&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:45</date>
+  <millis>1570507425648</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:45</date>
+  <millis>1570507425695</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Run with &amp;apos;MyCucumberRunnerAndroid&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:45</date>
+  <millis>1570507425696</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runWithCucumberRunner(MyCucumberRunnerAndroid)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:45</date>
+  <millis>1570507425696</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RunCucumberAndroid</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:45</date>
+  <millis>1570507425696</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RunCucumberAndroid</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T11:03:45</date>
+  <millis>1570507425701</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_AndroidTests</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

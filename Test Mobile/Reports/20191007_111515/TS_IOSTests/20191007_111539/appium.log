@@ -1,0 +1,306 @@
+[35m[Appium][39m Welcome to Appium v1.15.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 58463
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 58464
+[35m[Appium][39m   tmpDir: /var/folders/gg/sy3_nv612m3745rcj_thjtsw0000gn/T//Katalon/Appium/Temp1570421773156
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:58463
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/anujachikane/Katalon Studio/Katalon-Mobile-Test-framework/Test Mobile/Apps/ios/Coffee Timer.app","noReset":true,"deviceName":"iPhone 11 Pro","fullReset":false,"platform":"IOS","wdaLocalPort":58376,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.0","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS"},"capabilities":{"firstMatch":[{"appium:app":"/Users/anujachikane/Katalon Studio/Katalon-Mobile-Test-framework/Test Mobile/Apps/ios/Coffee Timer.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 11 Pro","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.0","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appi[39m
+[35m[BaseDriver][39m The capabilities ["platform","realDeviceLogger"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.0 creating new XCUITestDriver (v2.133.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: e9b9d840-e5a5-448f-8697-1b88a005ed86
+[35m[XCUITest][39m iOS SDK Version set to '13.0'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.0 with udid '81399A11-7C04-4F7E-AB20-6A952929CE2A'
+[35m[XCUITest][39m Determining device to run tests on: udid: '81399A11-7C04-4F7E-AB20-6A952929CE2A', real device: false
+[35m[BaseDriver][39m Using local app '/Users/anujachikane/Katalon Studio/Katalon-Mobile-Test-framework/Test Mobile/Apps/ios/Coffee Timer.app'
+[35m[XCUITest][39m Continuing without capturing device logs: iOS Simulator with udid 81399A11-7C04-4F7E-AB20-6A952929CE2A is not running
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Booting Simulator with UDID 81399A11-7C04-4F7E-AB20-6A952929CE2A...
+[35m[iOSSim][39m Simulator with UDID 81399A11-7C04-4F7E-AB20-6A952929CE2A booted in 14 seconds
+[35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
+[35m[XCUITest][39m Using WDA path: '/Users/anujachikane/.nvm/versions/node/v12.1.0/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[XCUITest][39m Using WDA agent: '/Users/anujachikane/.nvm/versions/node/v12.1.0/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[DevCon Factory][39m Requesting connection for device 81399A11-7C04-4F7E-AB20-6A952929CE2A on local port 58376, device port 58376
+[35m[DevCon Factory][39m Successfully requested the connection for 81399A11-7C04-4F7E-AB20-6A952929CE2A:58376
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[XCUITest][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":58376}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session e9b9d840-e5a5-448f-8697-1b88a005ed86 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m35715 ms - 756[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86 [39m[32m200[39m [90m140 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86 [39m[32m200[39m [90m2 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/window/rect [39m[32m200[39m [90m42 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Mexican' and @name = 'Mexican']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1109 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/element/22000000-0000-0000-7E7D-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/element/22000000-0000-0000-7E7D-000000000000/location [39m[32m200[39m [90m81 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/element/22000000-0000-0000-7E7D-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e9b9d840)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1CD60020-100E-4DB1-831F-B5FC30E8DC89 with e9b9d840-e5a5-448f-8697-1b88a005ed86
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/element/22000000-0000-0000-7E7D-000000000000/text [39m[32m200[39m [90m78 ms - 70[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/window/rect [39m[32m200[39m [90m37 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Mexican' and @name = 'Mexican']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1081 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/element/22000000-0000-0000-7E7D-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/element/22000000-0000-0000-7E7D-000000000000/location [39m[32m200[39m [90m78 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"22000000-0000-0000-7E7D-000000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/touch/perform [39m[32m200[39m [90m269 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/window/rect [39m[32m200[39m [90m75 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1191 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m902 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m890 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m897 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m893 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1014 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m941 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m890 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m905 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m937 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1013 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m884 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m933 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1016 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m999 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m934 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1013 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m922 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m894 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m881 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m879 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m919 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m904 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m899 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m914 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m914 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1071 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1058 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1006 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m929 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m936 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Start' and @name = 'Start']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/elements [39m[32m200[39m [90m1003 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 5.7.0
+[35m[RemoteDebugger][39m Setting communication protocol: using full Web Inspector protocol communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/contexts [39m[32m200[39m [90m200 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/screenshot [39m[32m200[39m [90m128 ms - 379016[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 5.7.0
+[35m[RemoteDebugger][39m Setting communication protocol: using full Web Inspector protocol communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/contexts [39m[32m200[39m [90m6 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/screenshot [39m[32m200[39m [90m99 ms - 379016[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session e9b9d840-e5a5-448f-8697-1b88a005ed86 from our master session list
+[35m[DevCon Factory][39m Releasing connections for 81399A11-7C04-4F7E-AB20-6A952929CE2A device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["81399A11-7C04-4F7E-AB20-6A952929CE2A:58376"]
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e9b9d840-e5a5-448f-8697-1b88a005ed86 [39m[32m200[39m [90m1042 ms - 14[39m
+[35m[HTTP][39m [90m[39m

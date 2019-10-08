@@ -1,0 +1,11 @@
+{
+  "sessionName":        "iOS test",
+  "sessionDescription": "Run trial test on Kobiton iPhone device",
+  "deviceOrientation":  "portrait",
+  "captureScreenshots": true,
+  "app":"kobiton-store:40931",
+  "deviceGroup": "KOBITON",
+  "deviceName": "iPhone 6s",
+  "platformVersion": "10.2.1",
+  "platformName":"iOS"
+}

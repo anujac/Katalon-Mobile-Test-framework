@@ -1,0 +1,11 @@
+{
+  "sessionName":"Android test on LG device",
+  "sessionDescription": "",
+  "deviceOrientation":  "portrait",
+  "captureScreenshots": true,
+  "app":"kobiton-store:40231",
+  "deviceGroup":"KOBITON",
+  "deviceName":         "LG G4",
+  "platformVersion":    "6.0",
+  "platformName":       "Android"
+}

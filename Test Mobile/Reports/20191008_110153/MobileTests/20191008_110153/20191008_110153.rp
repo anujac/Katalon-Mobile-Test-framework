@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20191008_110153</name>
+   <tag></tag>
+   <displayName>20191008_110153</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20191008_110153/TS_AndroidTests/20191008_110153</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>kobitonDevice</key>
+                  <value>{
+  &quot;id&quot;: 17442,
+  &quot;udid&quot;: &quot;CB512A4CG7&quot;,
+  &quot;isBooked&quot;: false,
+  &quot;capabilities&quot;: {
+    &quot;udid&quot;: &quot;CB512A4CG7&quot;,
+    &quot;modelName&quot;: &quot;F5121&quot;,
+    &quot;deviceName&quot;: &quot;Xperia X&quot;,
+    &quot;isEmulator&quot;: false,
+    &quot;resolution&quot;: {
+      &quot;width&quot;: 1080,
+      &quot;height&quot;: 1920
+    },
+    &quot;platformName&quot;: &quot;Android&quot;,
+    &quot;platformVersion&quot;: &quot;7.0&quot;,
+    &quot;installedBrowsers&quot;: [
+      {
+        &quot;name&quot;: &quot;chrome&quot;,
+        &quot;version&quot;: &quot;75.0.3770.101&quot;
+      }
+    ]
+  },
+  &quot;orientation&quot;: &quot;PORTRAIT&quot;,
+  &quot;captureScreenShots&quot;: true,
+  &quot;isHidden&quot;: false,
+  &quot;isOnline&quot;: true,
+  &quot;isFavorite&quot;: true,
+  &quot;isCloud&quot;: true
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Kobiton Device</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20191008_110153/TS_IOSTests/20191008_110211</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>kobitonDevice</key>
+                  <value>{
+  &quot;id&quot;: 17484,
+  &quot;udid&quot;: &quot;a31d5e4c53a777fac0cd453a7cba71723f3a7aff&quot;,
+  &quot;isBooked&quot;: false,
+  &quot;capabilities&quot;: {
+    &quot;udid&quot;: &quot;a31d5e4c53a777fac0cd453a7cba71723f3a7aff&quot;,
+    &quot;modelName&quot;: &quot;N71AP&quot;,
+    &quot;deviceName&quot;: &quot;iPhone 6s&quot;,
+    &quot;isEmulator&quot;: false,
+    &quot;resolution&quot;: {
+      &quot;width&quot;: 750,
+      &quot;height&quot;: 1334
+    },
+    &quot;platformName&quot;: &quot;iOS&quot;,
+    &quot;platformVersion&quot;: &quot;10.2.1&quot;,
+    &quot;installedBrowsers&quot;: [
+      {
+        &quot;name&quot;: &quot;safari&quot;
+      }
+    ]
+  },
+  &quot;orientation&quot;: &quot;PORTRAIT&quot;,
+  &quot;captureScreenShots&quot;: true,
+  &quot;isHidden&quot;: false,
+  &quot;isOnline&quot;: true,
+  &quot;isFavorite&quot;: true,
+  &quot;isCloud&quot;: true
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Kobiton Device</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

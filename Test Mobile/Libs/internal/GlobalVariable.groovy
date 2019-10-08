@@ -32,6 +32,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object G_KobitonServerUrl
+     
+    /**
+     * <p></p>
+     */
     public static Object G_ShortTimeOut
      
 
@@ -45,6 +50,7 @@ public class GlobalVariable {
             G_NotificationMessage = selectedVariables['G_NotificationMessage']
             G_AndroidApp = selectedVariables['G_AndroidApp']
             G_IOSApp = selectedVariables['G_IOSApp']
+            G_KobitonServerUrl = selectedVariables['G_KobitonServerUrl']
             G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
             
         } catch (Exception e) {

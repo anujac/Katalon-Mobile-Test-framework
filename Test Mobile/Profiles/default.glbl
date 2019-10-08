@@ -26,6 +26,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://anujac:c68a9208-7408-47c5-a86f-f5ff8bfb8904@api.kobiton.com/wd/hub'</initValue>
+      <name>G_KobitonServerUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
    </GlobalVariableEntity>
