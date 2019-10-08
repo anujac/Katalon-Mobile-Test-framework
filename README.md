@@ -10,7 +10,7 @@ If you have android emulator running, you only need to run the test with android
 
 
 Similarly, if you have xcode dev-tools (ios simulator) setup on your machine, open **RunCucumberIOS** file from Test Cases folder.
-Select **iOS** option from the Run test list.
+Select **iOS** option from the list.
 
 
 Cucumber feature files are inside the **Include** folder. 
@@ -19,10 +19,20 @@ To run the android and iOS tests in parallel, open the test suite collection **M
 
 
 ### Command line execution for MacOS:
+Android emulator ->
 
 `./Katalon\ Studio.app/Contents/MacOS/katalon --args -noSplash  -runMode=console -projectPath="/Users/anujachikane/Katalon Studio/Katalon-Mobile-Test-framework/Test Mobile/Test Mobile.prj" -retry=0 -testSuiteCollectionPath="Test Suites/MobileTests"`
 
-Please switch the username with your own.
+To run the test collection with Kobiton devices, we can setup the run configurations for each test case in the collection with **Kobiton device** option, and just execute the test suite collection from commandline by using the above command.
+
+
+Running a single test case with Kobiton device ->
+
+`./Katalon\ Studio.app/Contents/MacOS/katalon --args -noSplash  -runMode=console -consoleLog -noExit -projectPath="/Users/anujachikane/Katalon Studio/Katalon-Mobile-Test-framework/Test Mobile/Test Mobile.prj" -statusDelay=60 -retry=2 -retryFailedTestCases=false -testSuitePath="Test Suites/TS_AndroidTests" -kobitonDeviceId="8747" -executionProfile="default" -browserType="Kobiton Device"`
+
+
+
+Please switch the username in the project path with your own.
 
 
 ----
